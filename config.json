@@ -1,0 +1,29 @@
+{
+  "osdu": {
+    "base_url": "",
+    "headers": {
+      "accept": "application/json",
+      "data-partition-id": "",
+      "Authorization": "Bearer <token>",
+      "Content-Type": "application/json",
+      "Accept": "*/*"
+    }
+  },
+  "tesseract": {
+    "path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  },
+  "ollama": {
+    "embedding_model": "nomic-embed-text",
+    "embedding_base_url": "http://localhost:11434",
+    "llm_model": "llama3.2:latest",
+    "llm_request_timeout": 120.0
+  },
+  "pdf": {
+    "sample_path": "F:/PyCharmProjects/zeroshotclassification/sampledata/cr_100806_1.pdf",
+    "max_pages": 1
+  },
+  "osdu_query": {
+    "kind": "osdu:wks:reference-data--DocumentType:1.0.1",
+    "limit": 5
+  }
+}
