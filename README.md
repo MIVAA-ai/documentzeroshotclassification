@@ -109,14 +109,14 @@ All configurable parameters are stored in a `config.json` file for easy manageme
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt or run pip install requests pymupdf pillow pytesseract llama-index llama-index-embeddings-ollama llama-index-llms-ollama
    ```
 
 3. Ensure `config.json` is updated with your setup.
 
 4. Run the script:
    ```bash
-   python main.py
+   python zeroshot.py
    ```
 
 ---
