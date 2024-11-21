@@ -23,7 +23,7 @@ This repository provides a Python-based pipeline to extract text from PDFs, clas
 - Python 3.9 or above
 - Install the required Python libraries using:
   ```bash
-  pip install -r requirements.txt
+  pip install -r requirements.txt or run pip install requests pymupdf pillow pytesseract llama-index llama-index-embeddings-ollama llama-index-llms-ollama
   ```
 
 ### External Tools
